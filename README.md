@@ -5,9 +5,9 @@
 ### “At 19:00 on every 7th day-of-month.”
 
 
-> crontab -e
+  ````sh
+crontab -e
+0 19 */7 * * apt-get update ** apt-get upgrade -y
 
-> 0 19 */7 * * apt-get update ** apt-get upgrade -y
-
-
+````
 `
